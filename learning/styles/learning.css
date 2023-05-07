@@ -1,0 +1,26 @@
+.video-frame{
+    height: 40em;
+}
+.right-border{
+    border-right: 1px solid lightgrey;
+}
+#comment-list{
+    height: 25em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.comment-box{
+    height: 5em;
+    width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .video-frame{
+        height: 15em;
+    }
+    .right-border{
+        border-right: none;
+    }
+    #comment-list{
+        height: 15em;
+    }
+}
